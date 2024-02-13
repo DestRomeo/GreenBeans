@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background-color: #0f1923;
+}
+
+.navbar-h ul {
+  list-style-type: none;
+  background-color: #0f1923;
+
+  border-left-width: 5px;
+  border-left-color: #f5424d;
+  border-left-style: solid;
+
+  border-right-width: 5px;
+  border-right-color: #f5424d;
+  border-right-style: solid;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  margin-left: 300px;
+  margin-right: 504px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  overflow: hidden;
+}
+
+.navbar-h a {
+  color: #e1d9d1;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar-h a:hover {
+  background-color: #f5424d;
+}
+
+.navbar-h li {
+  float: left;
+  font-family: "VALORANT", sans-serif;
+}
+
+.intro {
+  font-family: "VALORANT", sans-serif;
+  background-color: #0f1923;
+  color: #f5424d;
+  background-image: url(../img/valoagents.webp);
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 500px;
+  position: relative;
+}
+.intro h1,
+.intro p {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  left: 20px;
+}
+.intro p {
+  top: 400px;
+}
+
+.color {
+  color: #ffffff;
+}
+
+.box {
+  background: #0f1921;
+  font-family: "VALORANT", sans-serif;
+  color: #ffffff;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  padding-top: 3px;
+  text-align: justify;
+  padding-bottom: 3px;
+  border-left-width: 5px;
+  border-left-color: #f5424d;
+  border-left-style: solid;
+}
+.middle-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 23px;
+  text-align: justify;
+  background-color: #376089;
+  color: #e1d9d1;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  border-left-width: 10px;
+  border-left-color: #0f1921;
+  border-left-style: solid;
+}
+
+.end {
+  font-size: 25px;
+  background: #f5424d;
+  color: #0f1921;
+  margin: 0px;
+  padding-top: 3px;
+  text-align: justify;
+  padding-bottom: 3px;
+  border-top-width: 10px;
+  border-top-color: #0f1921;
+  border-top-style: solid;
+  text-align: center;
+  font-family: "VALORANT", sans-serif;
+}
+/* This is a css comment, just like the html one */
